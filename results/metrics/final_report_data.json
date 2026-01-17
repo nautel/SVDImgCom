@@ -1,0 +1,26 @@
+{
+  "Project Summary": {
+    "Total notebooks": 5,
+    "Modules implemented": 4,
+    "Test images": 2,
+    "k values tested": 7,
+    "Visualizations created": "30+"
+  },
+  "Grayscale Results": {
+    "Image": "5.3.01.tiff",
+    "Dimensions": "1024x1024",
+    "Optimal k": 100,
+    "Best PSNR": "28.80 dB",
+    "Best SSIM": "0.9871",
+    "Space saved": "80.5%",
+    "Quality": "Fair"
+  },
+  "RGB Results": {
+    "Image": "4.1.01.tiff",
+    "Dimensions": "256x256x3",
+    "Optimal k": 30,
+    "Best PSNR": "31.43 dB",
+    "Space saved": "76.5%",
+    "Quality": "Good"
+  }
+}

@@ -1,0 +1,6 @@
+k,MSE,PSNR (dB),SSIM,Space Saved (%),Quality
+5,0.50,51.15,0.9999,96.1,"Excellent (rất tốt, gần như không phân biệt được)"
+10,0.50,51.16,0.9999,92.2,"Excellent (rất tốt, gần như không phân biệt được)"
+20,0.50,51.15,0.9999,84.3,"Excellent (rất tốt, gần như không phân biệt được)"
+50,0.50,51.14,0.9999,60.9,"Excellent (rất tốt, gần như không phân biệt được)"
+100,0.50,51.15,0.9999,21.7,"Excellent (rất tốt, gần như không phân biệt được)"
