@@ -1,33 +1,5 @@
-# Nén ảnh bằng phương pháp SVD (Singular Value Decomposition)
 
-**Đề tài môn học:** Phân tích xử lý ảnh
-**Sinh viên:** Năm 3 - Đại học Khoa học Tự nhiên (KHTN)
-**Ngôn ngữ:** Python
-**Phương pháp:** SVD (Singular Value Decomposition)
-**Trạng thái:** ✅ **HOÀN THÀNH** (All 3 Phases Complete)
-
----
-
-## 🎉 Project Status
-
-✅ **Phase 1 COMPLETE** - Core algorithms và modules
-✅ **Phase 2 COMPLETE** - Visualizations và analysis
-✅ **Phase 3 COMPLETE** - Report outline và deliverables
-
-**Tổng kết:**
-- 4 Python modules
-- 5 Jupyter notebooks
-- 2 test/export scripts
-- 30+ visualizations
-- 9 high-resolution figures cho báo cáo
-- Comprehensive report outline
-- Full documentation
-
-**Ready for submission! 📚**
-
----
-
-## 📋 Mục lục
+##  Mục lục
 
 1. [Giới thiệu](#giới-thiệu)
 2. [Lý thuyết SVD](#lý-thuyết-svd)
@@ -37,9 +9,8 @@
 6. [Kết quả](#kết-quả)
 7. [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
----
 
-## 🎯 Giới thiệu
+##  Giới thiệu
 
 Dự án này triển khai thuật toán **nén ảnh sử dụng SVD (Singular Value Decomposition)**. SVD là một phương pháp trong đại số tuyến tính cho phép phân tích ma trận thành 3 ma trận nhỏ hơn, từ đó có thể nén ảnh bằng cách chỉ giữ lại các thành phần quan trọng nhất.
 
@@ -56,7 +27,7 @@ Dự án này triển khai thuật toán **nén ảnh sử dụng SVD (Singular 
 
 ---
 
-## 📚 Lý thuyết SVD
+##  Lý thuyết SVD
 
 ### Định nghĩa
 
@@ -91,15 +62,7 @@ A_compressed = U[:, :k] × Σ[:k, :k] × V^T[:k, :]
 
 ---
 
-## 🛠️ Cài đặt
-
-### 1. Clone dự án
-
-```bash
-cd C:\Users\nuate\project
-```
-
-### 2. Tạo virtual environment (khuyến nghị)
+###  Tạo virtual environment (khuyến nghị)
 
 ```bash
 python -m venv venv
@@ -111,7 +74,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Cài đặt dependencies
+###  Cài đặt dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -128,48 +91,6 @@ pip install -r requirements.txt
 - `seaborn` - Visualizations
 
 ---
-
-## 📁 Cấu trúc dự án
-
-```
-project/
-│
-├── README.md                          # File này - hướng dẫn sử dụng
-├── requirements.txt                   # Dependencies
-│
-├── src/                               # Source code
-│   ├── svd_compression.py            # Thuật toán nén SVD (CORE)
-│   ├── image_utils.py                # Load/save ảnh
-│   ├── quality_metrics.py            # Tính PSNR, MSE, SSIM
-│   └── visualization.py              # Vẽ biểu đồ và phân tích
-│
-├── notebooks/                         # Jupyter notebooks
-│   ├── 01_svd_theory_demo.ipynb      # Demo lý thuyết SVD
-│   ├── 02_grayscale_compression.ipynb # Nén ảnh xám
-│   ├── 03_color_compression.ipynb     # Nén ảnh màu
-│   ├── 04_comparative_analysis.ipynb  # So sánh grayscale vs RGB
-│   └── 05_final_summary.ipynb         # Tổng kết toàn bộ dự án
-│
-├── images/                            # Ảnh test
-│   ├── grayscale/                    # Ảnh trắng đen
-│   └── color/                        # Ảnh màu
-│
-├── results/                           # Kết quả
-│   ├── compressed/                   # Ảnh đã nén
-│   ├── visualizations/               # Biểu đồ
-│   └── metrics/                      # Bảng metrics
-│
-├── report/                            # Báo cáo
-│   ├── report_outline.md             # Outline báo cáo chi tiết (8 phần)
-│   └── figures/                      # Hình ảnh cho báo cáo (9 figures)
-│
-├── test_user_images.py               # Script test với ảnh thực
-└── export_report_figures.py          # Script export figures cho báo cáo
-```
-
----
-
-## 🚀 Sử dụng
 
 ### Option 1: Sử dụng Jupyter Notebooks (Khuyến nghị)
 
@@ -232,7 +153,7 @@ Script này sẽ:
 
 ---
 
-## 📊 API Reference
+##  API Reference
 
 ### Module: `svd_compression.py`
 
@@ -305,7 +226,7 @@ Tính tất cả metrics cùng lúc.
 
 ---
 
-## 📈 Kết quả
+##  Kết quả
 
 ### Kết quả thực tế trên ảnh test (512×512)
 
@@ -349,7 +270,7 @@ Tính tất cả metrics cùng lúc.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Chạy tests cho các modules:
 
@@ -368,7 +289,7 @@ Tất cả modules đều có `if __name__ == "__main__"` block để self-test.
 
 ---
 
-## 📖 Tài liệu tham khảo
+##  Tài liệu tham khảo
 
 ### Videos (Khuyến nghị xem):
 1. **Steve Brunton - SVD Playlist**
@@ -396,7 +317,7 @@ Tất cả modules đều có `if __name__ == "__main__"` block để self-test.
 
 ---
 
-## 🎓 Học tập
+##  Học tập
 
 ### Để hiểu sâu hơn:
 
@@ -418,7 +339,7 @@ Tất cả modules đều có `if __name__ == "__main__"` block để self-test.
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Lỗi thường gặp:
 
@@ -441,66 +362,41 @@ pip install opencv-python
 
 ---
 
-## ✅ Hoàn thành (Completed Deliverables)
+##  Hoàn thành (Completed Deliverables)
 
-### ✅ Phase 1 - Cơ sở và thuật toán (HOÀN THÀNH)
-- ✅ 4 modules Python (image_utils, svd_compression, quality_metrics, visualization)
-- ✅ Notebook 01: SVD Theory Demo
-- ✅ Notebook 02: Grayscale Compression
-- ✅ Full API với docstrings
-- ✅ Testing functions
+###  Phase 1 - Cơ sở và thuật toán (HOÀN THÀNH)
+-  4 modules Python (image_utils, svd_compression, quality_metrics, visualization)
+-  Notebook 01: SVD Theory Demo
+-  Notebook 02: Grayscale Compression
+-  Full API với docstrings
+-  Testing functions
 
-### ✅ Phase 2 - Visualization và phân tích (HOÀN THÀNH)
-- ✅ visualization.py module (7 plot functions)
-- ✅ Notebook 03: RGB compression
-- ✅ Notebook 04: Comparative analysis
-- ✅ Notebook 05: Final summary
-- ✅ test_user_images.py script
-- ✅ export_report_figures.py script
-- ✅ 30+ visualizations created
+###  Phase 2 - Visualization và phân tích (HOÀN THÀNH)
+-  visualization.py module (7 plot functions)
+-  Notebook 03: RGB compression
+-  Notebook 04: Comparative analysis
+-  Notebook 05: Final summary
+-  test_user_images.py script
+-  export_report_figures.py script
+-  30+ visualizations created
 
-### ✅ Phase 3 - Báo cáo (HOÀN THÀNH)
-- ✅ report_outline.md (8 sections, comprehensive)
-- ✅ 9 high-resolution figures (DPI 300)
-- ✅ Final summary notebook
-- ✅ CSV/JSON data exports
-- ✅ Comprehensive README
+###  Phase 3 - Báo cáo (HOÀN THÀNH)
+-  report_outline.md (8 sections, comprehensive)
+-  9 high-resolution figures (DPI 300)
+-  Final summary notebook
+-  CSV/JSON data exports
+-  Comprehensive README
 
-### 🚀 Nâng cao (Future Work)
-- [ ] CLI tool với argparse
+###  Nâng cao (Future Work)
 - [ ] Block-based SVD compression (8×8 blocks như JPEG)
 - [ ] Adaptive k selection algorithm
-- [ ] GUI với Streamlit/Gradio
-- [ ] Benchmark với JPEG compression
 - [ ] YCbCr color space
 - [ ] GPU acceleration (CuPy/PyTorch)
-
 ---
 
-## 👨‍🎓 Tác giả
-
-**Sinh viên năm 3**
-Đại học Khoa học Tự nhiên (KHTN)
-Môn học: Phân tích xử lý ảnh
-Năm: 2026
-
----
-
-## 📄 License
+##  License
 
 Dự án này được tạo cho mục đích học tập. Free to use for educational purposes.
 
----
 
-## 🙏 Lời cảm ơn
 
-- Giảng viên môn Phân tích xử lý ảnh
-- Tài liệu từ MIT OpenCourseWare
-- Steve Brunton's YouTube channel
-- NumPy và OpenCV communities
-
----
-
-**Happy Learning! 📚✨**
-
-Nếu có câu hỏi, hãy tham khảo notebooks hoặc tài liệu tham khảo ở trên.
