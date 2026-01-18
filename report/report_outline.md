@@ -11,7 +11,7 @@
 
 ---
 
-## MỄC LỄC
+## MỤC LỤC
 
 1. [Giới thiệu](#1-giới-thiệu)
 2. [Cơ sở lý thuyết](#2-cơ-sở-lý-thuyết)
