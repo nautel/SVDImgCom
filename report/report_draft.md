@@ -6,23 +6,6 @@
 
 ---
 
-**Môn học:** Phân tích Xử lý Ảnh
-
-**Sinh viên:** [Họ và tên sinh viên]
-
-**MSSV:** [Mã số sinh viên]
-
-**Lớp:** [Mã lớp]
-
-**Giảng viên hướng dẫn:** [Tên giảng viên]
-
-**Khoa:** [Tên khoa]
-
-**Trường:** Đại học Khoa học Tự nhiên (KHTN)
-
-**Năm học:** 2025-2026
-
-**Ngày nộp:** [Ngày/Tháng/Năm]
 
 ---
 
