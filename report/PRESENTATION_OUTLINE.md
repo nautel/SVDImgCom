@@ -8,23 +8,6 @@
 
 ## Slide 1: Title Slide (30 seconds)
 
-**Content:**
-- Tiêu đề: "Nén Ảnh Bằng Phương Pháp Singular Value Decomposition (SVD)"
-- Subtitle: "Image Compression using SVD"
-- Sinh viên: [Họ tên]
-- MSSV: [Mã số]
-- Giảng viên: [Tên giảng viên]
-- Môn học: Phân tích Xử lý Ảnh
-- Ngày: [Ngày present]
-
-**Visual:**
-- Background: Professional gradient
-- Logo trường (nếu có)
-
-**Speaker notes:**
-"Xin chào thầy/cô và các bạn. Hôm nay em xin trình bày đề tài 'Nén Ảnh Bằng Phương Pháp SVD'."
-
----
 
 ## Slide 2: Agenda (30 seconds)
 
